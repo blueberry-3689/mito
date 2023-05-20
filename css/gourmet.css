@@ -1,0 +1,188 @@
+.sp{
+display: none;
+}
+.pc{
+display: block;
+}
+.section-top{
+background-image: url(../picture/gourmet/cocca4.jpg);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat; 
+object-fit: cover;
+height: 100vh;
+}
+.section-top h2{
+text-align: center;
+margin: inherit;
+font-family: Calisto MT;
+font-size: 150px;
+color: #fff;
+letter-spacing: 1.5rem;
+top: 50%;
+position: relative;
+}
+.section-top_message{
+padding-top: 200px;
+padding-bottom: 200px;
+}
+.section-top_message p{
+font-family: タイムマシンわ号;
+font-size: 35px;
+color: #000;
+text-align: center;
+line-height: 5.5rem;
+margin: 0 auto;
+}
+.section-menu{
+position: relative;
+}
+.section-menu_1{
+margin-top: 200px;
+margin-bottom: 100px;
+}
+.section-cafe_pop p{
+font-family:タイムマシンわ号;
+font-size: 30px;
+writing-mode: vertical-lr;
+line-height: 3.5rem;
+padding-left: 78px;
+margin-top: -82px;
+position: absolute;
+}
+.section-cafe_pop p span{
+background-color:#EFD6B0 ;
+}
+.section-cafe{
+display: flex;
+position: relative;
+}
+.section-cafe ul{
+padding: 0;
+}
+.section-cafe ul li{
+list-style: none;
+display: flex;
+}
+.section-cafe_title img{
+width: 800px;
+height: 600px;
+object-fit: cover;
+}
+.section-cafe_text{
+padding-left: 42px;
+}
+.section-cafe_text h2{
+font-family:Times New Roman ;
+font-size: 80px;
+font-weight: 300;
+padding-left: 100px;
+}
+.section-cafe_text p{
+font-family:UD デジタル 教科書体 NP-R ;
+font-size: 25px;
+line-height: 2.3rem;
+}
+.section-cafe_picture{
+display: flex;
+}
+.section-cafe_picture img{
+width: 33.3%;
+object-fit: cover;
+}
+.section-menu_2{
+margin-top: 300px;
+margin-bottom: 100px;
+}
+.section-cocca-pop p{
+font-family:タイムマシンわ号;
+font-size: 30px;
+writing-mode: vertical-lr;
+line-height: 3.5rem;
+padding-left: 78px;
+margin-top: -82px;
+position: absolute;
+right: 100px;
+}
+.section-cocca-pop p span{
+background-color: #E9B7CD;
+}
+.section-cocca ul li{
+display: flex;
+list-style: none;
+}
+.section-cocca img{
+width: 800px;
+height: 600px;
+object-fit: cover;
+margin: 0 0 0 auto;
+}
+.section-cocca_text{
+padding-left: 42px;
+}
+.section-cocca_text h2{
+font-family:Times New Roman ;
+font-size: 80px;
+font-weight: 300;
+padding-left: 100px;  
+}
+.section-cocca_text p{
+font-family:UD デジタル 教科書体 NP-R ;
+font-size: 25px;
+line-height: 2.3rem;
+}
+.section-cocca_picture{
+display: flex;
+}
+.section-cocca_picture img{
+width: 33.3%;
+object-fit: cover;
+}
+.section-menu_3{
+margin-top: 300px;
+margin-bottom: 100px;
+}
+.section-lake-pop p{
+font-family:タイムマシンわ号;
+font-size: 30px;
+writing-mode: vertical-lr;
+line-height: 3.6rem;
+padding-left: 78px;
+margin-top: -82px;
+position: absolute;
+}
+.section-lake-pop span{
+background-color: #B0D0EF;
+}
+.section-lake ul li{
+display: flex;
+list-style: none;
+}
+.section-lake img{
+width: 800px;
+height: 600px;
+object-fit: cover; 
+}
+.section_lake_text{
+padding-left: 42px;
+}
+.section_lake_text h2{
+font-family:Times New Roman ;
+font-size: 80px;
+font-weight: 300;
+padding-left: 100px; 
+}
+.section_lake_text p{
+font-family:UD デジタル 教科書体 NP-R ;
+font-size: 25px;
+line-height: 2.3rem;
+}
+.section-lake_picture{
+display: flex;
+}
+.section-lake_picture img{
+width: 33.3%;
+object-fit: cover;
+}
+
+

@@ -1,0 +1,71 @@
+
+.section-top{
+background-image: url(../picture/sightseeing/Kairakuen8.jpg);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat; 
+object-fit: cover;
+height: 100vh;
+}
+.section-top h2{
+text-align: center;
+font-family: Calisto MT;
+font-size: 95px;
+color: #fff;
+letter-spacing: 1.5rem;
+position: relative;
+right: 0;
+left: 0;
+top: 240px;
+margin: auto;
+}
+.section-top_message{
+padding-top: 200px;
+padding-bottom: 200px;
+}
+.section-top_message p{
+font-family: タイムマシンわ号;
+font-size: 35px;
+color: #000;
+text-align: center;
+line-height: 5.5rem;
+margin: 0 auto;
+}
+.section-menu ul{
+display: grid;
+grid-template-columns: 33% 33% 34%;
+width: 100%;
+margin: 0;
+padding: 0;
+}
+
+.section-menu ul li{
+display: grid;
+list-style: none;
+}
+.section-menu img{
+width: 100%;
+height: 772px;
+object-fit: cover;
+}
+.section-menu a{
+text-decoration: none;
+font-family: タイムマシンわ号;
+font-size: 50px;
+color: #fff;
+position: absolute;
+text-align: center;
+padding-top: 24% ;   
+}
+.history,.park{
+padding-left: 4%;
+}
+.tower,.kairakuen{
+padding-left: 6%;
+}
+.office{
+padding-left: 8%;
+}
+.library{
+padding-left: 2%;
+}

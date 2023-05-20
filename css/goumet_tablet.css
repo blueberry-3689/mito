@@ -1,0 +1,141 @@
+@media (min-width: 770px)and (max-width: 1400px){
+.sp{
+display: none;
+}
+.pc{
+display: block;
+}
+.section-top{
+width: 100%;
+height: 100vh;
+object-fit: cover;
+}
+.section-top h2{
+font-size: 80px;
+letter-spacing: 0.5rem;
+}
+.section-top_message{
+padding: 0;
+margin: 100px 0 100px;
+}
+.section-top_message p{
+font-size: 14px;
+line-height: 2.5rem;
+}
+.section-menu_1{
+margin-top: 200px;
+margin-bottom: 100px;
+}
+.section-cafe_pop p{
+font-size: 25px;
+line-height: 2.5rem;
+padding-left: 78px;
+z-index: 10;
+}
+.section-cafe ul{
+padding: 0;
+}
+.section-cafe img{
+width: 495px;
+height: 364px;
+object-fit: cover;
+position: relative;
+z-index: 5;
+}
+.section-cafe_text{
+padding-left: 42px;
+background-color:#EFD6B0 ;
+left: -86px;
+position: relative;
+z-index: 0;
+top: 58px;
+}
+.section-cafe_text h2{
+font-size: 20px;
+font-weight: 300;
+padding-left: 10px;
+}
+.section-cafe_text p{
+font-family:UD デジタル 教科書体 NP-R ;
+font-size: 25px;
+line-height: 2.3rem;
+}
+.section-cafe_picture{
+display: flex;
+}
+.section-cafe_picture img{
+width: 33.3%;
+object-fit: cover;
+}
+.section-menu_2{
+margin-top: 300px;
+margin-bottom: 100px;
+}
+.section-cocca-pop p{
+font-size: 25px;
+line-height: 2.5rem;
+padding-left: 78px;
+}
+.section-cocca ul li{
+display: flex;
+list-style: none;
+}
+.section-cocca img{
+width: 495px;
+height: 364px;
+object-fit: cover;
+}
+.section-cocca_text{
+padding-left: 42px;
+}
+.section-cocca_text h2{
+font-size: 55px;
+padding: 0;
+}
+.section-cocca_text p{
+font-size: 25px;
+line-height: 2.3rem;
+}
+.section-menu_3{
+margin-top: 300px;
+margin-bottom: 100px;
+}
+.section-lake-pop p{
+font-size: 30px;
+line-height: 3.6rem;
+}
+.section-lake ul{
+padding: 0;
+}
+.section-lake ul li{
+display: flex;
+list-style: none;
+}
+.section-lake img{
+width: 495px;
+height: 364px;
+object-fit: cover;
+}
+.section_lake_text{
+padding-left: 42px;
+}
+.section_lake_text h2{
+font-family:Times New Roman ;
+font-size: 80px;
+font-weight: 300;
+padding-left: 100px; 
+}
+.section_lake_text p{
+font-family:UD デジタル 教科書体 NP-R ;
+font-size: 25px;
+line-height: 2.3rem;
+}
+.section-lake_picture{
+display: flex;
+}
+.section-lake_picture img{
+width: 33.3%;
+object-fit: cover;
+}
+
+}
