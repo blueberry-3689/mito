@@ -14,13 +14,16 @@ height: 100vh;
 }
 .section-top h2{
 text-align: center;
-margin: inherit;
 font-family: Calisto MT;
 font-size: 150px;
 color: #fff;
 letter-spacing: 1.5rem;
-top: 50%;
 position: relative;
+line-height: 200px;
+right: 0;
+left: 0;
+top: 271px;
+margin: auto;
 }
 .section-top_message{
 padding-top: 200px;
@@ -48,40 +51,47 @@ writing-mode: vertical-lr;
 line-height: 3.5rem;
 padding-left: 78px;
 margin-top: -82px;
+z-index: 15;
 position: absolute;
 }
 .section-cafe_pop p span{
 background-color:#EFD6B0 ;
 }
-.section-cafe{
-display: flex;
-position: relative;
-}
-.section-cafe ul{
-padding: 0;
-}
-.section-cafe ul li{
-list-style: none;
-display: flex;
+.section-cafe_title {
+display: flex   ;
 }
 .section-cafe_title img{
 width: 800px;
 height: 600px;
 object-fit: cover;
+z-index: 10;
+position: relative;
 }
-.section-cafe_text{
-padding-left: 42px;
-}
-.section-cafe_text h2{
-font-family:Times New Roman ;
+
+.section-cafe_title h2{
+font-family: Times New Roman;
 font-size: 80px;
 font-weight: 300;
-padding-left: 100px;
+text-align: center;
+margin: auto;
+z-index: 5;
+position: relative;
 }
 .section-cafe_text p{
-font-family:UD デジタル 教科書体 NP-R ;
-font-size: 25px;
-line-height: 2.3rem;
+font-family: UD デジタル 教科書体 NP-R;
+font-size: 35px;
+line-height: 4.0rem;
+padding: 10px 0px 0px 93px;
+z-index: 3;
+position: relative;
+}
+.section-cafe_back{
+display: block;
+background-color: #EFD6B0;
+height: 740px;
+z-index: 0;
+position: relative;
+margin: -759px 0px 0px 297px;
 }
 .section-cafe_picture{
 display: flex;
@@ -102,34 +112,38 @@ line-height: 3.5rem;
 padding-left: 78px;
 margin-top: -82px;
 position: absolute;
+z-index: 15;
 right: 100px;
 }
 .section-cocca-pop p span{
 background-color: #E9B7CD;
 }
-.section-cocca ul li{
+.section-cocca_title{
 display: flex;
-list-style: none;
 }
-.section-cocca img{
-width: 800px;
-height: 600px;
-object-fit: cover;
-margin: 0 0 0 auto;
-}
-.section-cocca_text{
-padding-left: 42px;
-}
-.section-cocca_text h2{
+.section-cocca_title h2{
 font-family:Times New Roman ;
 font-size: 80px;
 font-weight: 300;
-padding-left: 100px;  
+text-align: center;
+margin: auto;
+z-index: 5;
+position: relative;
+}
+.section-cocca_title img{
+width: 800px;
+height: 600px;
+object-fit: cover;
+position: relative;
+z-index: 10;
 }
 .section-cocca_text p{
-font-family:UD デジタル 教科書体 NP-R ;
-font-size: 25px;
-line-height: 2.3rem;
+font-family: UD デジタル 教科書体 NP-R;
+font-size: 35px;
+line-height: 4.0rem;
+padding: 10px 0px 0px 93px;
+z-index: 3;
+position: relative;
 }
 .section-cocca_picture{
 display: flex;
@@ -146,39 +160,53 @@ margin-bottom: 100px;
 font-family:タイムマシンわ号;
 font-size: 30px;
 writing-mode: vertical-lr;
-line-height: 3.6rem;
+line-height: 3.5rem;
 padding-left: 78px;
 margin-top: -82px;
+z-index: 15;
 position: absolute;
 }
 .section-lake-pop span{
 background-color: #B0D0EF;
 }
-.section-lake ul li{
+.section-lake_title{
 display: flex;
-list-style: none;
 }
-.section-lake img{
+.section-lake_title img{
 width: 800px;
 height: 600px;
 object-fit: cover; 
+z-index: 10;
+position: relative;
 }
-.section_lake_text{
-padding-left: 42px;
-}
-.section_lake_text h2{
-font-family:Times New Roman ;
+.section-lake_title h2{
+font-family: Times New Roman;
 font-size: 80px;
 font-weight: 300;
-padding-left: 100px; 
+text-align: center;
+margin: auto;
+z-index: 5;
+position: relative;
 }
 .section_lake_text p{
-font-family:UD デジタル 教科書体 NP-R ;
-font-size: 25px;
-line-height: 2.3rem;
+font-family: UD デジタル 教科書体 NP-R;
+font-size: 35px;
+line-height: 4.0rem;
+padding: 10px 0px 0px 93px;
+z-index: 3;
+position: relative;
+}
+.section_lake_back{
+background-color: #B0D0EF;
+height: 740px;
+z-index: 0;
+position: relative;
+margin: -771px 0px 0px 254px
 }
 .section-lake_picture{
 display: flex;
+z-index: 10;
+position: relative;
 }
 .section-lake_picture img{
 width: 33.3%;

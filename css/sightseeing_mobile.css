@@ -1,4 +1,4 @@
-@media (max-width: 519px){
+@media (max-width: 520px){
 .sp{
 display: block;
 }
@@ -43,7 +43,7 @@ object-fit: cover;
 .section-menu a {
 text-decoration: none;
 font-family: タイムマシンわ号;
-font-size: 50px;
+font-size: 44px;
 font-weight: bold;
 color: #fff;
 position: absolute;
@@ -51,6 +51,6 @@ text-align: center;
 left: 0;
 right: 0;
 padding: 0;
-margin-top: 300px;
+margin-top: 310px;
 }
 }

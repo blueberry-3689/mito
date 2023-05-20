@@ -1,3 +1,4 @@
+
 .sp{
 display: none;
 }
@@ -54,13 +55,13 @@ height: 608px;
 object-fit: cover;
 }
 .section-menu_1 h2{
-position: absolute;
-font-family: Calisto MT;
-font-size: 100px;
-color: #fff;
-right: 205px;
-margin: auto;
-top: 220px;
+    position: absolute;
+    font-family: Calisto MT;
+    font-size: 100px;
+    color: #fff;
+    right: 205px;
+    margin: auto;
+    top: 220px;
 }
 .section-menu_1 a{
 font-family: Calisto MT;

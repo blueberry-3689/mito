@@ -23,61 +23,63 @@ font-size: 14px;
 line-height: 2.5rem;
 }
 .section-cafe_pop p{
-font-size: 20px;
-line-height: 2.5rem;
-padding-left: 18px;
+font-size: 12px;
+line-height: 1.5rem;
+padding-left: 10px;
+z-index: 15;
 }
 .section-cafe_title img{
-width: 253px;
+width: 240px;
 height: 190px;
 object-fit: cover;
 }
-.section-cafe_title h2{
-font-size: 35px;
-padding-left: 45px;
-margin: 0;
-padding: 20px 30px 0 20px;
+.section-cafe_title  h2{
+font-size: 21px;
+text-align: center;
+margin: auto;
 }
 .section-cafe_text p{
-font-size: 15px;
-line-height: 2.5rem;
+font-size: 12px;
+line-height: 1.7rem;
 padding: 10px;
+}
+.section-cafe_back{
+background-color: #EFD6B0;
+height: 440px;
+z-index: 0;
+position: relative;
+margin: -365px 0px 0px 89px;
 }
 .section-cafe_picture{
 display: flex;
+z-index: 10;
+position: relative;
+margin-top: -94px;
 }
 .section-cafe_picture img{
 width: 33.3%;
 object-fit: cover;
 }
 .section-cocca-pop p{
-font-size: 14px;
-line-height: 2.0rem;
-right: 10px;
+font-size: 12px;
+line-height: 1.5rem;
+padding-left: 10px;
+z-index: 15;
 }
-.section-cocca ul {
-padding: 0;
-}
-.section-cocca img{
-width: 359px;
-height: 267px;
+.section-cocca_title img{
+width: 240px;
+height: 190px;
 object-fit: cover;
-margin: 0 0 0 auto;
 }
-.section-cocca_text{
-padding-left: 0px;
-}
-.section-cocca_text h2{
-font-size: 30px;
-font-weight: 300;
+.section-cocca_title h2{
+font-size: 21px;
 text-align: center;
-margin: 0;
-padding: 0; 
+margin: auto;
 }
 .section-cocca_text p{
 font-size: 12px;
-margin: 0px;
-padding: 10px 10px 0 10px;
+line-height: 1.7rem;
+padding: 10px;
 }
 .section-cocca_picture{
 display: flex;
@@ -91,37 +93,37 @@ margin-top: 300px;
 margin-bottom: 100px;
 }
 .section-lake-pop p{
-font-size: 20px;
-line-height: 2.5rem;
-padding-left: 18px;
+font-size: 12px;
+line-height: 1.5rem;
+padding-left: 10px;
+z-index: 15;
 }
-.section-lake ul{
-padding: 0;
-}
-.section-lake ul li{
-display: block;
-}
-.section-lake img{
-width: 381px;
-height: 265px;
+.section-lake_title img{
+width: 240px;
+height: 190px;
 object-fit: cover;
 }
-.section_lake_text{
-padding-left: 42px;
-}
-.section_lake_text h2{
-font-size: 35px;
-padding-left: 45px;
-margin: 0;
-padding: 20px 30px 0 20px;
+.section-lake_title h2{
+font-size: 21px;
+text-align: center;
+margin: auto;
 }
 .section_lake_text p{
-font-size: 15px;
-line-height: 2.5rem;
+font-size: 12px;
+line-height: 1.7rem;
 padding: 10px;
+}
+.section_lake_back{
+background-color: #B0D0EF;
+height: 310px;
+z-index: 0;
+position: relative;
+margin: -329px 0px 0px 89px;
 }
 .section-lake_picture{
 display: flex;
+z-index: 10;
+position: relative;
 }
 .section-lake_picture img{
 width: 33.3%;
