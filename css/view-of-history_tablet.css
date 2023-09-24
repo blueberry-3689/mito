@@ -1,0 +1,163 @@
+@media (min-width: 520px)and (max-width: 655px){
+.sp{
+display: none;
+}
+.pc{
+display: block;
+}
+.section-top h2{
+font-size: 46px;
+font-weight: 500;
+}
+.section-top_message h2{
+font-size: 18px;
+padding-top: 145px;
+}
+.section-top_message p{
+font-size: 12px;
+padding-top: 105px;
+line-height: 3.0rem;
+}
+.section-menu_1 img{
+width: 70%;
+object-fit: cover;
+padding-left: 20px;
+}
+.section-menu_1 h2{
+font-size: 18px;
+line-height: 3.0rem;
+margin: auto;
+padding: 0;
+}
+.section-menu_2_picture1 h2{
+font-size: 11px;
+line-height: 3.0rem;
+padding-left: 75px;
+}
+.section-menu_2_picture1 img{
+width: 40%;
+object-fit: cover;
+}
+.section-menu_2_picture2 img{
+width: 59%;
+object-fit: cover;
+top: -63px;
+}
+.section-access h2{
+font-size: 45px;
+font-weight: 600;
+padding-top: 75px;
+letter-spacing: 1.0rem;
+}
+.section-access p{
+font-size: 16px;
+} 
+}
+
+@media (min-width: 655px)and (max-width: 855px){
+.sp{
+display: none;
+}
+.pc{
+display: block;
+}
+.section-top h2{
+font-size: 65px;
+}
+.section-top_message h2{
+font-size: 23px;
+padding-top: 115px;
+}
+.section-top_message p{
+font-size: 15px;
+padding-top: 100px;
+line-height: 3.5rem;
+}
+.section-menu_1 img{
+width: 70%;
+object-fit: cover;
+padding-left: 20px;
+}
+.section-menu_1 h2{
+font-size: 26px;
+line-height: 3.5rem;
+margin: auto;
+padding: 0;
+}
+.section-menu_2_picture1 h2{
+font-size: 14px;
+line-height: 3.0rem;
+}
+.section-menu_2_picture1 img{
+width: 40%;
+object-fit: cover;
+}
+.section-menu_2_picture2 img{
+width: 59%;
+object-fit: cover;
+top: -88px;
+}
+.section-access h2{
+font-size: 60px;
+font-weight: 600;
+padding-top: 55px;
+letter-spacing: 1.0rem;
+}
+.section-access p{
+font-size: 18px;
+} 
+}
+
+@media (min-width: 855px)and (max-width: 1245px){
+.sp{
+display: none;
+}
+.pc{
+display: block;
+}
+.section-top h2{
+font-size: 70px
+}
+.section-top_message h2{
+font-size: 30px;
+}
+.section-top_message p{
+font-size:18px ;
+padding-top: 100px;
+line-height: 3.0rem;
+}
+.section-menu_1 img{
+width: 70%;
+object-fit: cover;
+padding-left: 20px;
+}
+.section-menu_1 h2{
+font-size: 35px;
+line-height: 4.0rem;
+margin: auto;
+padding: 0;
+}
+.section-menu_2_picture1 h2{
+font-size: 20px;
+line-height: 3.0rem;
+}
+.section-menu_2_picture1 img{
+width: 40%;
+object-fit: cover;
+}
+.section-menu_2_picture2 img{
+width: 59%;
+object-fit: cover;
+top: -129px;
+}
+.section-access h2{
+font-size: 80px;
+font-weight: 600;
+padding-top: 45px;
+letter-spacing: 1.0rem;
+}
+.section-access p{
+font-size: 20px;
+line-height: 3.0rem;
+}
+}

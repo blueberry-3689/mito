@@ -1,0 +1,132 @@
+@media (max-width: 520px){
+.sp{
+display: block;
+}
+.pc{
+display: none;
+}
+.section-top{
+width: 100%;
+height: 645px;
+object-fit: cover;
+}
+.section-top h2{
+font-size: 35px;
+letter-spacing: 0.5rem;
+}
+.section-top_message{
+padding: 0;
+margin: 100px 0 100px;
+}
+.section-top_message p{
+font-size: 14px;
+line-height: 2.5rem;
+}
+.section-cafe_pop p{
+font-size: 12px;
+line-height: 1.5rem;
+padding-left: 10px;
+z-index: 15;
+}
+.section-cafe_title img{
+width: 240px;
+height: 190px;
+object-fit: cover;
+}
+.section-cafe_title  h2{
+font-size: 21px;
+text-align: center;
+margin: auto;
+}
+.section-cafe_text p{
+font-size: 12px;
+line-height: 1.7rem;
+padding: 10px;
+}
+.section-cafe_back{
+background-color: #EFD6B0;
+height: 440px;
+z-index: 0;
+position: relative;
+margin: -365px 0px 0px 89px;
+}
+.section-cafe_picture{
+display: flex;
+z-index: 10;
+position: relative;
+margin-top: -94px;
+}
+.section-cafe_picture img{
+width: 33.3%;
+object-fit: cover;
+}
+.section-cocca-pop p{
+font-size: 12px;
+line-height: 1.5rem;
+padding-left: 10px;
+z-index: 15;
+}
+.section-cocca_title img{
+width: 240px;
+height: 190px;
+object-fit: cover;
+}
+.section-cocca_title h2{
+font-size: 21px;
+text-align: center;
+margin: auto;
+}
+.section-cocca_text p{
+font-size: 12px;
+line-height: 1.7rem;
+padding: 10px;
+}
+.section-cocca_picture{
+display: flex;
+}
+.section-cocca_picture img{
+width: 33.3%;
+object-fit: cover;
+}
+.section-menu_3{
+margin-top: 300px;
+margin-bottom: 100px;
+}
+.section-lake-pop p{
+font-size: 12px;
+line-height: 1.5rem;
+padding-left: 10px;
+z-index: 15;
+}
+.section-lake_title img{
+width: 240px;
+height: 190px;
+object-fit: cover;
+}
+.section-lake_title h2{
+font-size: 21px;
+text-align: center;
+margin: auto;
+}
+.section_lake_text p{
+font-size: 12px;
+line-height: 1.7rem;
+padding: 10px;
+}
+.section_lake_back{
+background-color: #B0D0EF;
+height: 310px;
+z-index: 0;
+position: relative;
+margin: -329px 0px 0px 89px;
+}
+.section-lake_picture{
+display: flex;
+z-index: 10;
+position: relative;
+}
+.section-lake_picture img{
+width: 33.3%;
+object-fit: cover;
+}
+}

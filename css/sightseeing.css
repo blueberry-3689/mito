@@ -1,0 +1,81 @@
+.section-top{
+position: relative;
+height: 100vh;
+}
+.section-top::before{
+display: inline-block;
+position: absolute;
+top: 50%;
+left: 50%;
+z-index: 1;
+transform: translate(-50%,-50%);
+width: 100%;
+height: 100vh;
+background-image: url(../picture/sightseeing/Kairakuen8.jpg);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat; 
+object-fit: cover;
+content: "";
+filter: contrast(0.6);
+}
+.section-top h2{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+z-index: 2;
+text-align: center;
+font-family: Calisto MT;
+font-size: 95px;
+color: #fff;
+letter-spacing: 1.5rem;
+margin: auto;
+}
+.section-top_message{
+padding-top: 200px;
+padding-bottom: 200px;
+}
+.section-top_message p{
+font-family: 'Lora', serif;
+font-size: 35px;
+color: #000;
+text-align: center;
+line-height: 3.0rem;
+margin: 0 auto;
+}
+.section-menu ul{
+display: grid;
+grid-template-columns: 33% 33% 34%;
+width: 100%;
+margin: 0;
+padding: 0;
+}
+
+.section-menu ul li{
+display: grid;
+list-style: none;
+position: relative;
+}
+.section-menu img{
+width: 100%;
+height: 772px;
+object-fit: cover;
+}
+.section-menu a{
+text-decoration: none;
+font-family: 'Lora', serif;
+font-weight: 600;
+font-size: 28px;
+color: #fff;
+position: absolute;
+text-align: center;
+padding: 0;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%); 
+}
+.section-menu a:hover {
+filter: opacity(70%);
+cursor: pointer;
+}

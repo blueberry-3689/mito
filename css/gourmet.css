@@ -1,0 +1,231 @@
+.sp{
+display: none;
+}
+.pc{
+display: block;
+}
+.section-top{
+position: relative;
+height: 100vh;
+}
+.section-top::before{
+display: inline-block;
+position: absolute;
+top: 50%;
+left: 50%;
+z-index: 1;
+transform: translate(-50%,-50%);
+width: 100%;
+height: 100vh;
+background-image: url(../picture/gourmet/cocca4.jpg);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat; 
+object-fit: cover;
+content: "";
+filter: contrast(0.6);
+}
+.section-top h2{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+z-index: 2;
+text-align: center;
+font-family: Calisto MT;
+font-size: 95px;
+color: #fff;
+letter-spacing: 1.5rem;
+margin: auto;
+}
+.section-top_message{
+padding-top: 200px;
+padding-bottom: 200px;
+}
+.section-top_message p{
+font-family: 'Lora', serif;
+font-size: 35px;
+color: #000;
+text-align: center;
+line-height: 5.5rem;
+margin: 0 auto;
+}
+.section-menu{
+position: relative;
+max-width: 2000px;
+margin: auto;
+}
+.section-menu_1{
+margin-top: 200px;
+margin-bottom: 100px;
+}
+.section-cafe_pop p{
+font-family: 'Lora', serif;;
+font-size: 30px;
+writing-mode: vertical-lr;
+line-height: 3.5rem;
+padding-left: 78px;
+margin-top: -82px;
+z-index: 15;
+position: absolute;
+}
+.section-cafe_pop p span{
+background-color:#EFD6B0 ;
+}
+.section-cafe_title {
+display: flex   ;
+}
+.section-cafe_title img{
+width: 800px;
+height: 600px;
+object-fit: cover;
+z-index: 10;
+position: relative;
+}
+
+.section-cafe_title h2{
+font-family: Times New Roman;
+font-size: 80px;
+font-weight: 300;
+text-align: center;
+margin: auto;
+z-index: 5;
+position: relative;
+}
+.section-cafe_text p{
+font-family: UD デジタル 教科書体 NP-R;
+font-size: 35px;
+line-height: 4.0rem;
+padding: 10px 0px 0px 93px;
+z-index: 3;
+position: relative;
+}
+.section-cafe_back{
+display: block;
+background-color: #EFD6B0;
+height: 740px;
+z-index: 0;
+position: relative;
+margin: -759px 0px 0px 297px;
+}
+.section-cafe_picture{
+display: flex;
+}
+.section-cafe_picture img{
+width: 33.3%;
+object-fit: cover;
+}
+.section-menu_2{
+margin-top: 300px;
+margin-bottom: 100px;
+}
+.section-cocca-pop p{
+font-family: 'Lora', serif;
+font-size: 30px;
+writing-mode: vertical-lr;
+line-height: 3.5rem;
+padding-left: 78px;
+margin-top: -82px;
+position: absolute;
+z-index: 15;
+right: 100px;
+}
+.section-cocca-pop p span{
+background-color: #E9B7CD;
+}
+.section-cocca_title{
+display: flex;
+}
+.section-cocca_title h2{
+font-family:Times New Roman ;
+font-size: 80px;
+font-weight: 300;
+text-align: center;
+margin: auto;
+z-index: 5;
+position: relative;
+}
+.section-cocca_title img{
+width: 800px;
+height: 600px;
+object-fit: cover;
+position: relative;
+z-index: 10;
+}
+.section-cocca_text p{
+font-family: UD デジタル 教科書体 NP-R;
+font-size: 35px;
+line-height: 4.0rem;
+padding: 10px 0px 0px 93px;
+z-index: 3;
+position: relative;
+}
+.section-cocca_picture{
+display: flex;
+}
+.section-cocca_picture img{
+width: 33.3%;
+object-fit: cover;
+}
+.section-menu_3{
+margin-top: 300px;
+margin-bottom: 100px;
+}
+.section-lake-pop p{
+font-family: 'Lora', serif;
+font-size: 30px;
+writing-mode: vertical-lr;
+line-height: 3.5rem;
+padding-left: 78px;
+margin-top: -82px;
+z-index: 15;
+position: absolute;
+}
+.section-lake-pop span{
+background-color: #B0D0EF;
+}
+.section-lake_title{
+display: flex;
+}
+.section-lake_title img{
+width: 800px;
+height: 600px;
+object-fit: cover; 
+z-index: 10;
+position: relative;
+}
+.section-lake_title h2{
+font-family: Times New Roman;
+font-size: 80px;
+font-weight: 300;
+text-align: center;
+margin: auto;
+z-index: 5;
+position: relative;
+}
+.section_lake_text p{
+font-family: UD デジタル 教科書体 NP-R;
+font-size: 35px;
+line-height: 4.0rem;
+padding: 10px 0px 0px 93px;
+z-index: 3;
+position: relative;
+}
+.section_lake_back{
+background-color: #B0D0EF;
+height: 740px;
+z-index: 0;
+position: relative;
+margin: -771px 0px 0px 254px
+}
+.section-lake_picture{
+display: flex;
+z-index: 10;
+position: relative;
+}
+.section-lake_picture img{
+width: 33.3%;
+object-fit: cover;
+}
+
+
