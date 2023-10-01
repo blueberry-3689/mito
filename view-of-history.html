@@ -7,31 +7,32 @@
     <title>mito</title>
     <link rel="stylesheet" href="./css/view-of-history.css">
     <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" href="./css/view-of-history_mobile.css">
-    <link rel="stylesheet" href="./css/view-of-history_tablet.css">
+    <script src="./javascript/jquery-3.7.0.min.js"></script>
+    <script src="./javascript/main.js" defer></script>
+    <link href="./picture/top/favicon.ico" rel="icon" type="image/x-icon">
 </head>
 <body>
    <header class="header">
-      <h2><a href="./index.html">
-         <img src="picture/top/map.png" alt="水戸地図" width="100">
-         </a>
-      </h2>
-      <div>
-      <ul>
-          <li>
-             <a href="./index.html">
-             top
-             </a>
-          </li>
-          <li>
-             <a href="./sightseeing.html">sightseeing</a>
-          </li>
-          <li>
-             <a href="./gourmet.html">gourmet</a>
-          </li>
-      </ul>
+      <div class="header_inner">
+         <h1 class="header_title header-title">
+          <a href="./index.html">
+            <img src="picture/top/map.png" alt="水戸地図" width="100">
+           </a>
+         </h1>
+         <nav class="header_nav nav" id="js-nav">
+          <ul class="nav_items nav-items">
+              <li class="nav-tiems_item"><a href="./index.html">top</a></li>
+              <li class="nav-tiems_item"><a href="./sightseeing.html">sightseeing</a></li>
+              <li class="nav-tiems_item"><a href="./gourmet.html">gourmet</a></li>
+           </ul>
+       </nav>
+         <button class="header_hamburger hamburger" id="js-hamburger" >
+            <span></span>
+            <span></span>
+            <span></span>
+         </button>
       </div>
-   </header>
+  </header>
     <main class="main">
       <section class="section-top">
           <h2>茨城県立歴史館</h2>

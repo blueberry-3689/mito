@@ -1,46 +1,132 @@
 body{
 margin: 0;
 }
+.main{
+margin: auto;
+}
 .header {
-display: flex;
-box-sizing: border-box;
-height: 110px;
+height: 70px;
 width: 100%;
-position:relative;
+background-color: rgba(81, 81, 81, 0.50);
+top: 0;
+left: 0;
+right: 0;
+position: fixed;
+z-index: 9999;
+}
+.header_inner{
+padding: 0 60px;
+display: flex;
 align-items: center;
-z-index: 5;
+justify-content: space-between;
+height: inherit;
+position: relative;
+margin: auto;
+max-width: 1245px;
+}
+/*ヘッダーのロゴ部分*/
+.header_title{
+width: 195px;
+}
+.header_title img{
+display: block;
+width: 65px;
+height: 100%;
+}
+/*ヘッダーのナビ部分*/
+.header_nav{
 position: absolute;
+right: 0;
+left: 0;
+top: 0;
+width: 100%;
+transform: translateX(100%);
+background-color: #E0B396;
+transition: ease .4s;
+height: 100vh;
+}
+.nav-items {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+padding: 0;
+}
+/*ハンバーガーメニュー*/
+.header_hamburger{
+width: 48px;
+}
+.hamburger{
+background-color: transparent;
+border-color: transparent;
+z-index: 9999;
+}
+.nav-tiems_item a:hover {
+opacity: 0.5;
 }
 
-.header img{
-width: 110px;
-height: 110px;
-padding-left: 70px;
+/*ハンバーガーメニューの線*/
+.hamburger span{
+width: 100%;
+height: 1px;
+background-color: #fff;
+position: relative;
+transition: ease .4s;
+display: block;
 }
-.header div{
-margin: 0 0 0 auto;
-padding-right: 70px;
+.hamburger span:nth-child(1){
+top: 0;
+height: 2px;
 }
-
-.header ul{
-display:flex;
+.hamburger span:nth-child(2){
+margin: 8px 0;
+height: 1.5px;
 }
-
-.header  ul li{
-list-style: none; 
-padding-left: 70px;
+.hamburger span:nth-child(3){
+top: 3;
 }
-
-.header a{
-text-decoration: none;
-font-family: Segoe UI;
-font-size: 30px;
+/* ハンバーガーメニュークリック後のスタイル */
+.header_nav.active{
+transform: translateX(0);
+}
+.hamburger.active span:nth-child(1){
+top: 5px;
+transform: rotate(45deg);
+}
+.hamburger.active span:nth-child(2){
+opacity: 0;
+}
+.hamburger.active span:nth-child(3){
+top: -13px;
+transform: rotate(-45deg);
+}
+.nav-items{
+padding: 0;
+position: absolute;
+top: 50;
+left: 50%;
+transform: translate(-50%,-50%);
+}
+.nav-tiems_item  {
+list-style: none;
+}
+/*ナビのリンク*/
+.nav-tiems_item a{
 color: #fff;
+width: 100%;
+display: block;
+text-decoration: none;
+text-align: center;
+font-size: 20px;
+font-family: 'Libre Bodoni', serif;
+margin-bottom: 24px;
 }
-.header a:hover {
-filter: opacity(70%);
-cursor: pointer;
+.nav-tiems_item:last-child a{
+margin-bottom: 0;
 }
+
+
+
 .section-footer{
 background-image: url(../picture/sightseeing/g6zgN3wrzcpNEwp.jpg);
 background-position: center;
@@ -48,7 +134,7 @@ background-size: cover;
 background-repeat: no-repeat; 
 object-fit: cover;
 height: 500px;
-margin-top: 300px;
+margin-top: 130px;
 }
 .footer-content{
 background-color: rgba(144, 144, 144, 0.49);
@@ -103,124 +189,104 @@ font-size: 15px;
 font-weight: 300;
 margin-top: 71px;
 }
+/*pcヘッダー*/
+@media screen and (min-width: 960px){
+.nav-items {
+position: inherit;
+top: 0;
+left: 0;
+transform: translate(0, 0);
 
-/*tablet*/
-@media (min-width: 520px) and (max-width: 959px){
-.header div{
+}
+.header_nav{
+position: static;
+transform: initial;
+background-color: inherit;
+height: initial;
+display: flex;
+justify-content: end;
+width: 50%;
+}
+/*pc時のナビゲーションメニュー、横並びにする*/
+.nav_items{
+display: flex;
+align-items: center;
+height: inherit;
+justify-content: space-between;
+gap: 80px;
+position: inherit;
+top: 0;
+left: 0;
+transform: translate(0,0);
+}
+/* ナビのリンク */
+.nav-tiems_item a{
+margin-bottom: 0;
+color: #fff;
+font-size: 25px;
+}
+/*ハンバーガーメニュー*/
+.hamburger {
+background-color: transparent;
+border-color: transparent;
+z-index: 9999;
+}
+/*ｐｃ時非表示する*/
+.hamburger{
 display: none;
 }
-.header img{
-width: 98px;
-height: 98px;
-object-fit: cover;
-padding-left: 18px;
+
 }
-.section-footer{
-background-image: url(../picture/sightseeing/g6zgN3wrzcpNEwp.jpg);
-background-position: center;
-background-size: cover;
-background-repeat: no-repeat; 
-object-fit: cover;
-height: 100vh;
-margin-top: 100px;
-}
-.footer-content{
-background-color: rgba(144, 144, 144, 0.49);
-height: 100vh;
-}
+/*tablet*/
+@media (min-width: 520px) and (max-width: 959px){
 .site-map_main-link{
-display: flex;
-list-style: none;
 padding-top: 95px;
 padding-right: 65px;
 gap:50px;
 justify-content: center;
-align-items: center;
 }
 .site-map_main-link li a{
 text-decoration: none;
-font-family: Segoe UI;
 font-size: 18px;
-color: #fff;
 }
 .site-map_main-link2_container{
-text-align: right;
 display: flex;
 justify-content: center; 
 align-items: center;
 }
 .site-map_main-link2{
-list-style: none; 
-padding-top: 50px;
-display: inline-block;
-text-align: left;
 padding-right: 61px;
 }
 .site-map_main-link2 li a{
-text-decoration: none;
 font-family: Segoe UI;
 font-size: 18px;
 font-weight: 300;
-color: #fff;
-display: inline-block;
-text-align: left;
-}
-.footer__copyright{
-display: flex;
-justify-content: space-evenly;
-color: #fff;
-font-family: Segoe UI;
-font-size: 15px;
-font-weight: 300;
-bottom: -62px;
-position: relative;
 }
 }
 
 /*mobile*/
 @media (max-width: 520px){
-.header div{
-display: none;
-}
-.header img{
-width: 98px;
-height: 98px;
-object-fit: cover;
-padding-left: 18px;
-}
 .section-footer{
-background-image: url(../picture/sightseeing/g6zgN3wrzcpNEwp.jpg);
-background-position: center;
-background-size: cover;
-background-repeat: no-repeat; 
-object-fit: cover;
-height: 100vh;
+height: 500px;
 margin-top: 65px;
 }
 .footer-content{
 background-color: rgba(144, 144, 144, 0.49);
-height: 100vh;
+height: 500px;
 }
 .site-map_main-link{
-display: flex;
-list-style: none;
 padding-top: 95px;
 padding-right: 65px;
 gap:50px;
 justify-content: center;
-align-items: center;
 }
 .site-map_main-link li a{
 text-decoration: none;
-font-family: Segoe UI;
 font-size: 18px;
-color: #fff;
 }
 .site-map_main-link2_container{
-text-align: right;
 display: flex;
 justify-content: center; 
-align-items: center;
 }
 .site-map_main-link2{
 list-style: none; 
@@ -231,21 +297,13 @@ padding-right: 61px;
 }
 .site-map_main-link2 li a{
 text-decoration: none;
-font-family: Segoe UI;
 font-size: 18px;
 font-weight: 300;
-color: #fff;
 display: inline-block;
 text-align: left;
 }
 .footer__copyright{
-display: flex;
-justify-content: space-evenly;
-color: #fff;
-font-family: Segoe UI;
-font-size: 15px;
-font-weight: 300;
-bottom: -62px;
+bottom: 32px;
 position: relative;
 }
 }
